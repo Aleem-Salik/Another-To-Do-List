@@ -45,7 +45,7 @@ body {
   border-radius: 20px;
   height: 4rem;
   width: 60rem;
-  padding: 0 1.8rem;
+  padding: 0 9rem 0 1.8rem;
   font-size: 1.8rem;
   transform: translateX(4.5rem);
 }
@@ -155,12 +155,8 @@ body {
   }
 }
 
-@media (max-width: 400px) {
-  .task-input-container input {
-    width: 24rem;
-  }
-
-  .task {
-    width: 20rem;
+@media (max-width: 413px) {
+  html {
+    font-size: 50%;
   }
 }
